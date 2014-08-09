@@ -10,6 +10,7 @@ This is a sample iOS project without storyboard by Swift and XCdoe 6 beta 5.
 5. Add some code in AppDelegate.m (funciton "application didFinishLaunchingWithOptions") makes it looks like below
 
   func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+  
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()
